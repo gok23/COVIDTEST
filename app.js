@@ -20,7 +20,7 @@ document.getElementById('w-change-btn').addEventListener('click', (e) => {
   // Set location in LS
   storage.setLocationData(country);
 
-  // Get and display weather
+  // Get and display COVID details
   getcoviddetails();
 
   // Close modal
