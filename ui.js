@@ -12,6 +12,6 @@ class UI {
     this.time.textContent = `Last update: ${covid.last_update}`;
     this.cases.textContent = `Total cases: ${covid.cases}`;
     this.deaths.textContent = `Total deaths: ${covid.deaths}`;
-    this.recovered.textContent = `death cases: ${covid.recovered}`;
+    this.recovered.textContent = `Recovered: ${covid.recovered}`;
     }
 }
